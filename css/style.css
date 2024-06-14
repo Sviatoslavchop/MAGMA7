@@ -1,0 +1,48 @@
+.first {
+    background-color: brown;
+}
+
+.second {
+    background-color: brown;
+}
+
+.thirt {
+    font-size: 24px;
+}
+
+.died {
+    color: aqua;
+}
+
+.give {
+    color: chartreuse;
+}
+
+/* Визнвчити --main-bg-color тут */
+:root {
+    --main-bg-color: #2F303A;
+    --main-color: #2196F3;
+    --main-rd-color: #757575;
+    --main-br-color: #212121;
+}
+
+/* Для кожного з класів - задати колір */
+.fnaf {
+    background-color: var(--main-color);
+}
+
+.night {
+    background-color: aquamarine;
+}
+
+.right {
+    background-color: var(--main-rd-color);
+}
+
+.wright {
+    background-color: var(--main-bg-color);
+}
+
+.come {
+    background-color: var(--main-br-color);
+}
